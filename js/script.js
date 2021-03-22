@@ -9,5 +9,5 @@ document.addEventListener('scroll', function (e){ //Adiciona um evento a página
   layer1.style.width = (100 + scroll/5) + '%';
   layer2.style.width = (100 + scroll/5) + '%';
   layer2.style.left = (scroll/50) + '%';
-  text.style.top = - (scroll/10) + '%';
+  text.style.top = - (scroll/5.5) + '%';
 });
